@@ -17,4 +17,8 @@ public abstract class Component {
     public String getModel() {
         return model;
     }
+
+    public String getRadioStation(){
+        return this.radio.getStation();
+    }
 }
